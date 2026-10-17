@@ -57,6 +57,7 @@ router bgp 200
 interface GigabitEthernet0/0
  ip address 2.2.2.5 255.255.255.0
 router bgp 300
+ network 2.2.2.0 mask 255.255.255.0
  neighbor 2.2.2.4 remote-as 200
 ```
 
