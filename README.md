@@ -6,7 +6,7 @@ Shows how a non-BGP router inside a transit AS black-holes traffic, and how a fu
 
 ## Topology
 
-![Topology](topology.png)
+![Topology](topology.svg)
 
 | AS | Routers | Notes |
 |----|---------|-------|
