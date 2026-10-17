@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" font-family="Arial, Helvetica, sans-serif" font-size="13">
+<rect width="1000" height="260" fill="#ffffff"/>
+<g fill="none" stroke-width="2" stroke-dasharray="8 5">
+<rect x="20" y="30" width="250" height="200" rx="12" stroke="#7C3AED"/>
+<rect x="300" y="20" width="420" height="220" rx="12" stroke="#EA580C"/>
+<rect x="750" y="30" width="230" height="200" rx="12" stroke="#7C3AED"/>
+<ellipse cx="510" cy="130" rx="190" ry="72" stroke="#374151"/>
+</g>
+<g fill="#111827" text-anchor="middle">
+<text x="145" y="50">AS 100</text>
+<text x="510" y="40">AS 200</text>
+<text x="865" y="50">AS 300</text>
+<text x="510" y="80" fill="#374151">OSPF area 0</text>
+</g>
+<g stroke="#6B7280" stroke-width="2">
+<line x1="60" y1="70" x2="120" y2="130"/>
+<line x1="60" y1="190" x2="120" y2="130"/>
+<line x1="120" y1="130" x2="215" y2="130"/>
+<line x1="215" y1="130" x2="350" y2="130"/>
+<line x1="350" y1="130" x2="510" y2="130"/>
+<line x1="510" y1="130" x2="670" y2="130"/>
+<line x1="670" y1="130" x2="865" y2="130"/>
+</g>
+<g font-size="12" fill="#374151" text-anchor="middle">
+<text x="282" y="122">1.1.1.0/24</text>
+<text x="430" y="122">10.10.10.0/24</text>
+<text x="590" y="122">11.11.11.0/24</text>
+<text x="735" y="122">2.2.2.0/24</text>
+<text x="85" y="135" text-anchor="end">3.3.3.0/24</text>
+</g>
+<g stroke-width="2">
+<rect x="40" y="56" width="40" height="28" rx="4" fill="#F5F5F4" stroke="#78716C"/>
+<rect x="40" y="176" width="40" height="28" rx="4" fill="#F5F5F4" stroke="#78716C"/>
+<rect x="104" y="114" width="32" height="32" rx="4" fill="#DBEAFE" stroke="#2563EB"/>
+<circle cx="215" cy="130" r="20" fill="#DBEAFE" stroke="#2563EB"/>
+<circle cx="350" cy="130" r="20" fill="#DBEAFE" stroke="#2563EB"/>
+<circle cx="510" cy="130" r="20" fill="#FFEDD5" stroke="#EA580C"/>
+<circle cx="670" cy="130" r="20" fill="#DBEAFE" stroke="#2563EB"/>
+<circle cx="865" cy="130" r="20" fill="#DBEAFE" stroke="#2563EB"/>
+</g>
+<g font-weight="bold" fill="#111827" text-anchor="middle">
+<text x="60" y="100">SRV2</text>
+<text x="60" y="220">SRV1</text>
+<text x="120" y="162">DSW1</text>
+<text x="215" y="166">R1</text>
+<text x="350" y="166">R2</text>
+<text x="510" y="166">R3</text>
+<text x="670" y="166">R4</text>
+<text x="865" y="166">R5</text>
+</g>
+<g font-size="11" fill="#6B7280" text-anchor="middle">
+<text x="350" y="182">eBGP + iBGP</text>
+<text x="510" y="182">OSPF only, no BGP</text>
+<text x="670" y="182">eBGP + iBGP</text>
+</g>
+</svg>
