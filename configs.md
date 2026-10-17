@@ -65,6 +65,6 @@ router bgp 300
 | Host | IP | Gateway |
 |------|----|---------|
 | SRV1 | 3.3.3.3/24 | 3.3.3.1 |
-| SRV2 | 3.3.3.2/24 | none |
+| SRV2 | 3.3.3.2/24 | 3.3.3.1 |
 
 DSW1 is a plain L2 switch (default config).
