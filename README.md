@@ -1,5 +1,8 @@
 # BGP Transit Black Hole
 
+Sandbox Source - https://pingmynetwork.com/ 
+About the sandbox - Extremely fast, Easy to replicate labs from OCG or other learning materials, has great learning material.
+
 Shows how a non-BGP router inside a transit AS black-holes traffic, and how a full iBGP mesh fixes it.
 
 **CCNP ENARSI (300-410):** 1.11 Troubleshoot BGP (Internal and External)
